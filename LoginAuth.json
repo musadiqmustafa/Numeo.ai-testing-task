@@ -1,0 +1,35 @@
+{
+  "cookies": [
+    {
+      "name": "wordpress_sec_a12b40197616d6b04760505e9da1c034",
+      "value": "playwrightuser%7C1763548894%7Cn019w3eFSYGV1Hu5NoMQCsrVyEiCDvVKUZNIsvm02X5%7Cf10fa20e1c31d1a89deb3917b0dd989bf97690b0e98cce7bce5e04c0839ddd5c",
+      "domain": "ovcharski.com",
+      "path": "/shop/wp-content/plugins",
+      "expires": -1,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "wordpress_logged_in_a12b40197616d6b04760505e9da1c034",
+      "value": "playwrightuser%7C1763548894%7Cn019w3eFSYGV1Hu5NoMQCsrVyEiCDvVKUZNIsvm02X5%7C946350258ea4d648ae9c8e3304e30942ef84713b2ceb5181a1af8f89ce86fc4c",
+      "domain": "ovcharski.com",
+      "path": "/shop/",
+      "expires": -1,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "Lax"
+    }
+  ],
+  "origins": [
+    {
+      "origin": "https://ovcharski.com",
+      "localStorage": [
+        {
+          "name": "wc_cart_hash_3421f52b3b66c55ffb06ac402f71012c",
+          "value": "94216d48186714b2445067559ab393f7"
+        }
+      ]
+    }
+  ]
+}
