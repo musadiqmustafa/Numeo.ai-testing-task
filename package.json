@@ -1,0 +1,32 @@
+{
+  "name": "numeo-ai-testing-task",
+  "version": "1.0.0",
+  "description": "Take Home Assessment: E2E Test Automation Framework with Playwright and TypeScript",
+  "main": "index.js",
+  "scripts": {
+    "test": "playwright test",
+    "test:headed": "playwright test --headed",
+    "test:debug": "playwright test --debug",
+    "test:ui": "playwright test --ui",
+    "test:report": "playwright show-report",
+    "test:install": "playwright install"
+  },
+  "keywords": ["playwright", "testing", "e2e", "automation", "typescript"],
+  "author": "Musadiq Mustafa",
+  "license": "ISC",
+  "devDependencies": {
+    "@faker-js/faker": "^9.2.0",
+    "@playwright/test": "^1.51.0",
+    "@types/node": "^22.10.9",
+    "@typescript-eslint/eslint-plugin": "^8.17.0",
+    "@typescript-eslint/parser": "^8.17.0",
+    "dotenv": "^16.4.7",
+    "eslint": "^9.16.0"
+  },
+  "dependencies": {
+    "@axe-core/playwright": "^4.10.1",
+    "csv-parse": "^5.6.0",
+    "csv-parser": "^3.1.0",
+    "csvtojson": "^2.0.10"
+  }
+}
