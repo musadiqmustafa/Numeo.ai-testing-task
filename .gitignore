@@ -1,0 +1,29 @@
+node_modules/
+/test-results/
+/playwright-report/
+/playwright/.cache/
+/screenshots/
+# Environment files
+.env
+.env.local
+.env.production
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Test artifacts (keep examples for demo purposes)
+# /LoginAuth.json
+# /NoAuth.json
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
